@@ -1,0 +1,37 @@
+# --- Sensitive ---
+# Holds your live CMIE session cookie. NEVER commit.
+capture_curl.txt
+
+# --- Agent / editor workflow (personal, not project-related) ---
+.claude/
+CLAUDE.md
+CLAUDE.MD
+.cursor/
+.vscode/
+
+# --- Maintainer-local docs (not for the team-facing repo) ---
+context.md
+reference/research/
+
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+
+# --- Generated locally (re-runnable by the pipeline) ---
+# downloaded CMIE data + catalog + caches (subscription content)
+data/
+# HTML views and shareable CSV / Excel
+output/
+# completed_reports.log, errors.log
+logs/
+
+# --- Source artifacts (subscription material; subscribers obtain them directly) ---
+reference/ias_indicator.txt
+reference/ias_indicator.zip
+reference/Tdx_addin.xlam
+reference/samples/
+
+# --- Misc ---
+trash/
+.DS_Store

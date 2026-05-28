@@ -1,0 +1,51 @@
+all_industries:
+  non_financial:
+    manufacturing:
+      - food_and_agro_based_products
+      - textiles
+      - chemicals_and_chemical_products
+      - consumer_goods
+      - construction_materials
+      - metals_and_metal_products
+      - machinery
+      - transport_equipment
+      - miscellaneous_manufacturing
+      - diversified_manufacturing
+    mining:
+      - coal_and_lignite
+      - crude_oil_and_natural_gas
+      - minerals
+    electricity:
+      - electricity_generation
+      - electricity_transmission_and_distribution
+    services_other_than_financial:
+      - hotels_and_tourism
+      - wholesale_and_retail_trading
+      - transport_services
+      - communication_services
+      - information_technology
+      - miscellaneous_services
+      - diversified_non_financial_services
+    construction_and_real_estate:
+      real_estate:
+      industrial_and_infrastructural_construction:
+  financial_services:
+    - banking_services
+    investment_services:
+      - real_estate_investment_trust
+      - other_investment_services
+    asset_financing_services:
+      - auto_finance_services
+      - housing_finance_services
+      - infrastructure_finance_services
+      - other_asset_financing_services
+    - insurance_services
+    - other_fund_based_financial_services
+    fee_based_financial_services:
+      - securities_broking
+      - asset_management_services_mutual_funds
+      - other_fee_based_financial_services
+    - other_financial_services
+    - diversified_financial_services
+  - irrigation
+  - diversified
